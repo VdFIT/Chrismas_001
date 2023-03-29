@@ -1,0 +1,225 @@
+html{
+  background-color: rgb(226, 136, 98);
+  margin: 0%;
+  padding: 5px;
+}
+
+body {
+  background-color:rgb(142, 211, 125);
+  border: 20px black;
+  padding: 50px;
+  margin: 10px 20px 10px 20px; 
+  text-align: center;
+}
+
+header{
+    text-align: center;
+    background-color: aqua;
+}
+.h1{
+    display: flex;
+}
+h1,h2{
+    text-align: center;
+}
+.button {
+    background-color: #000200;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 14px;
+    margin: 20px 2px,black;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    animation:fadein 2s;
+    border-radius: 5px;
+    
+}
+.index:hover{
+  transform: scale(1.15);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  .contact:hover{
+    transform: scale(1.15);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 0;
+    
+   
+}
+ul li {
+    margin: 5px;
+    display: inline-block;
+}
+ul li a {
+    padding: 5px;
+    display: inline-block;      
+    border: 1px solid #f2f2f2;
+}
+ul li a img {
+    width: 125px;
+    height: 125px;
+    display: block;
+}
+ul li a:hover img {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.index 
+{
+margin: 0px 0px 0px 500px;
+}
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .frames{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    margin: 50px 20px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    animation:fadein 2s;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    transform: scale(1.15);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .toys{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+.deal
+{
+  text-align: center;
+    color: red;
+    border: 1px solid;
+    padding: 8px 8px;
+    margin: 0px 110px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+
+.bg-image{
+  background-image: url(abstract.webp);
+   min-height: 100%;
+   background-position: center  ;
+   background-repeat: no-repeat;
+   position: relative;
+   width: 400px;
+   margin: 0px 450px;
+}
+label{
+  color: rgb(61, 30, 30);
+  font-weight: bold;
+  
+}
+.bg-image img{
+  z-index: -20;
+  opacity: 0.2;
+}
+label::first-letter{
+  font-size:20px;
+  color: bisque;
+}
+/*contact
+}
+
+.contactform{
+  position: absolute;
+  right: 0;
+
+}
+*/
+.contactform{
+  text-align: center;
+}
+.in{
+  background-color: rgb(120, 187, 165);
+  border: 20px;
+  padding: 6px;
+  border-radius: 25px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 25;
+  padding: 5px;
+}
+.fr{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  text-align: center;
+  margin: 50px 20px;
+}
+.cd {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 70%;
+  animation:fadein 2s;
+  border-radius: 5px;
+}
+
+.cd:hover {
+  transform: scale(1.15);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.toys{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.deals{
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  margin: 10px 40px;
+  padding: 10px 10px;
+  border-radius: 25%;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
